@@ -1,4 +1,4 @@
-# AVL-Tree
+# AVL-Tree (C++)
 
 This program implements an AVL tree data structure. It includes functionalites to insert nodes, balance the tree, and perform standard Binary Search Tree (BST) operations such as search, traversal, and deletion. The AVL tree is a self-balancing BST, which ensures that the height difference between the left and right subtrees of any node is not more than 1. After program termination, the program prints the in-order and pre-order of the tree.
 
