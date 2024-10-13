@@ -1,19 +1,27 @@
 # AVL-Tree (C++)
 
-This program implements an AVL tree data structure. It includes functionalites to insert nodes, balance the tree, and perform standard Binary Search Tree (BST) operations such as search, traversal, and deletion. The AVL tree is a self-balancing BST, which ensures that the height difference between the left and right subtrees of any node is not more than 1. After program termination, the program prints the in-order and pre-order of the tree.
+This project consists of a basic arithmetic operations calculator to demonstrate low-level arithmetic implemenations using registers.
+
+The supported operations include:
+
+1. Less than (x < y)
+2. Addition (x + y)
+3. Subtraction (x - y)
+4. Multiplication (x * y)
 
 # Components
 
-1. **AVL.h**: Header file defining the structure and operations for the AVL Tree.
-2. **BST.h**: Header file defining basic Binary Search Tree operations that the AVL Tree extends.
-3. **testAVL.cpp**: Implementation file for testing and demonstrating the functionalities of the AVL tree.
-4. **AVL_Input.txt**: Input file containing a list of integers to be inserted into the AVL tree.
+1. main.c: The driver that provides a command-line interface.
 
+2. calculator.s: The assembly code that implements the arithmetic operations.
+
+# Assemble
+```as -o calculator.o calculator.s```
 
 # Compile
 
-```g++ testAVL.cpp -o avl_tree```
+```gcc -o main main.c calculator.o```
 
 # Run
 
-```./avl_tree```
+```./main <int x> <int y>```
